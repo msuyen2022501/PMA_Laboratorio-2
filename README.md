@@ -1,2 +1,2 @@
-# PMA_Laboratorio-PS-2
-Proyecto Control Académico.
+# PMA_Laboratorio-2
+Sistema de adopción de mascotas.
