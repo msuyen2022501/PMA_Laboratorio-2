@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2024-02-25T01:10:56.516Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b8e3f185-d94c-4f21-bbe8-a31557a8ee91",
+            "colId": "03315e65-29cb-48d2-b5d5-114cd6124a11",
+            "containerId": "",
+            "name": "mascotasPost",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-25T00:33:30.000Z",
+            "modified": "2024-02-25T01:02:18.889Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"rocky\",\n  \"raza\": \"Pitbull\",\n  \"edad\":\"10\",\n  \"especie\":\"perro\",\n  \"descripcion\": \"Tricolor, ojos negros\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "559af6f2-d410-4c8a-9906-10722e5b04bf",
+            "colId": "03315e65-29cb-48d2-b5d5-114cd6124a11",
+            "containerId": "",
+            "name": "mascotasGet",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-25T01:06:52.028Z",
+            "modified": "2024-02-25T01:07:05.532Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bac33c98-e133-4ca3-a8e7-d5c30a21040b",
+            "colId": "03315e65-29cb-48d2-b5d5-114cd6124a11",
+            "containerId": "",
+            "name": "getMascotaById",
+            "url": "http://localhost:3000/api/mascotas/65da929bbdc0cb120848b5b9",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-25T01:07:50.506Z",
+            "modified": "2024-02-25T01:08:05.990Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "50e922f5-8c4b-4d65-a761-b708a118edbb",
+            "colId": "03315e65-29cb-48d2-b5d5-114cd6124a11",
+            "containerId": "",
+            "name": "mascotasPut",
+            "url": "http://localhost:3000/api/mascotas/65da929bbdc0cb120848b5b9",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-25T01:08:16.710Z",
+            "modified": "2024-02-25T01:09:20.678Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Pul\",\n  \"edad\": \"3\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "37985c74-21b5-4124-a789-5cea191c340e",
+            "colId": "03315e65-29cb-48d2-b5d5-114cd6124a11",
+            "containerId": "",
+            "name": "mascotasDelete",
+            "url": "http://localhost:3000/api/mascotas/65da8f784b7a1f787bb4cb9c",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-25T01:09:41.317Z",
+            "modified": "2024-02-25T01:10:38.598Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

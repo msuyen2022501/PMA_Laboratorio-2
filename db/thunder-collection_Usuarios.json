@@ -1,0 +1,108 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuarios",
+    "dateExported": "2024-02-25T00:52:33.516Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a2e4c2d9-0847-4dd7-ae91-bd695d3f6635",
+            "colId": "7e803f74-f9e7-4c60-be24-f60821139d27",
+            "containerId": "",
+            "name": "usuariosPost",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-24T23:12:13.532Z",
+            "modified": "2024-02-25T00:32:29.707Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Test 12awd\",\n  \"correo\":\"test12awd@kinal.edu.gt\",\n  \"password\":\"123456\",\n  \"role\":\"ADMIN_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ed21b9c3-a563-481d-810a-41c0374d20fb",
+            "colId": "7e803f74-f9e7-4c60-be24-f60821139d27",
+            "containerId": "",
+            "name": "usuariosGet",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-24T23:12:13.533Z",
+            "modified": "2024-02-24T23:12:13.533Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8caab69b-0dd0-4a76-87d0-3ed5e9f179cf",
+            "colId": "7e803f74-f9e7-4c60-be24-f60821139d27",
+            "containerId": "",
+            "name": "getUsuarioById",
+            "url": "http://localhost:3000/api/usuarios/65da895e21df08084cdc9d0f",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-24T23:12:13.534Z",
+            "modified": "2024-02-25T00:27:23.199Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "db1c3388-3299-4dcb-bd08-4e1b74ed9228",
+            "colId": "7e803f74-f9e7-4c60-be24-f60821139d27",
+            "containerId": "",
+            "name": "usuariosPut",
+            "url": "http://localhost:3000/api/usuarios/65da895e21df08084cdc9d0f",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-24T23:12:13.535Z",
+            "modified": "2024-02-25T00:31:47.919Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Marrio2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "41154a47-e50d-4eeb-898a-42922050372c",
+            "colId": "7e803f74-f9e7-4c60-be24-f60821139d27",
+            "containerId": "",
+            "name": "usuarioDelete",
+            "url": "http://localhost:3000/api/usuarios/65da895e21df08084cdc9d0f",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-24T23:12:13.536Z",
+            "modified": "2024-02-25T00:32:05.917Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bb9694a5-1358-427d-8633-d784f29492a8",
+            "colId": "7e803f74-f9e7-4c60-be24-f60821139d27",
+            "containerId": "",
+            "name": "usuarioLogin",
+            "url": "http://localhost:3000/api/usuarios/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-25T00:37:03.722Z",
+            "modified": "2024-02-25T00:52:23.192Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"correo\": \"test11@kinal.edu.gt\",\r\n    \"password\":\"123456\"\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
